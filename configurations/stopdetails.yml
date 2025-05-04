@@ -26,12 +26,12 @@ spring:
       hibernate:
         generate_statistics: true
         show_sql: true
-    hikari:
-      maximum-pool-size: 50  # Increase this to 50 or more based on your system's capabilities.
-      minimum-idle: 50  # Keep a minimum number of idle connections for faster reuse.
-      idle-timeout: 30000  # Optional: Set timeout for idle connections (in milliseconds).
-      connection-timeout: 30000  # Optional: Set timeout for acquiring a connection (in milliseconds).
-      max-lifetime: 600000  # Optional: Set max lifetime for connections.
+  hikari:
+    maximum-pool-size: 50  # Increase this to 50 or more based on your system's capabilities.
+    minimum-idle: 50  # Keep a minimum number of idle connections for faster reuse.
+    idle-timeout: 30000  # Optional: Set timeout for idle connections (in milliseconds).
+    connection-timeout: 30000  # Optional: Set timeout for acquiring a connection (in milliseconds).
+    max-lifetime: 600000  # Optional: Set max lifetime for connections.
   cache:
     cache-names: fallbackClosures
     caffeine:
