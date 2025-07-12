@@ -16,7 +16,7 @@ management:
 
 spring:
   datasource:
-    url: jdbc:mysql://host.docker.internal:8666/sourceDb
+    url: jdbc:mysql://host.docker.internal:3306/sourceDb
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: password
