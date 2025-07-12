@@ -37,10 +37,6 @@ spring:
     cache-names: fallbackClosures
     caffeine:
       spec: maximumSize=10000,expireAfterWrite=60s,recordStats
-logging:
-  level:
-    org:
-      hibernate:
-        stat: DEBUG
+
 splunk:
   url: http://host.docker.internal:8088
