@@ -39,4 +39,4 @@ spring:
       spec: maximumSize=10000,expireAfterWrite=60s,recordStats
 
 splunk:
-  url: http://host.docker.internal:8088
+  url: http://host.docker.internal:9088
