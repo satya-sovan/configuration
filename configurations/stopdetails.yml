@@ -42,3 +42,5 @@ logging:
     org:
       hibernate:
         stat: DEBUG
+splunk:
+  url: http://host.docker.internal:9088
