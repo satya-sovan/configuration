@@ -39,3 +39,7 @@ spring:
 
 splunk:
   url: http://host.docker.internal:9088
+
+jms:
+  broker-url: tcp://host.docker.internal:61616
+  queue: test-queue
